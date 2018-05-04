@@ -36,14 +36,10 @@ p, a {
   font-size: 0.75rem;
 }
 
-a, a:hover {
+.nav-item, .nav-item:hover {
   color: white;
   padding: 0;
   text-decoration: none;
-}
-
-.nav-item {
-  padding: 0;
 }
 
 .navbar-dark .navbar-toggler {
@@ -61,4 +57,11 @@ a, a:hover {
 
 footer {
   background-color: #252a30;
+}
+
+.footer-item, .footer-item:hover {
+  color: #6c757d;
+  padding-bottom: 0.25rem;
+  margin: 0;
+  text-decoration: none;
 }
