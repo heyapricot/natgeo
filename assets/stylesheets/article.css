@@ -3,3 +3,11 @@
     font-size: 1.4rem;
     color: red;
 }
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.comment-line {
+    border-right: 6px solid #ffc818 ;
+}
