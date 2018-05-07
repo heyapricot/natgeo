@@ -1,0 +1,67 @@
+#cover {
+  background: url(../images/cover.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+#icon {
+  border: 3px;
+  border-color: #ffcc00;
+  border-style: solid;
+  width: 28px;
+  height: 36px;
+  line-height: normal;
+}
+
+#overlap {
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+
+h6 {
+  color: #ffcc00;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+p, a {
+  font-size: 0.75rem;
+}
+
+.nav-item, .nav-item:hover {
+  color: white;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-toggler {
+  color: white;
+  border: 0;
+}
+
+#border-left {
+  border-left: 3px;
+  border-color: #ffcc00;
+  border-left-style: solid;
+  padding-left: 2rem;
+  line-height: 0.75;
+}
+
+footer {
+  background-color: #252a30;
+}
+
+.footer-item, .footer-item:hover {
+  color: #6c757d;
+  padding-bottom: 0.25rem;
+  margin: 0;
+  text-decoration: none;
+}
