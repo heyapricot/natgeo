@@ -63,6 +63,26 @@ nav {
   line-height: 0.75;
 }
 
+#app {
+  background: url(../images/app.jpg) no-repeat center;
+  background-color: dimgray;
+  background-blend-mode: overlay;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 75vh;
+  min-height: 350px;
+}
+
+.btn {
+  color: white;
+  border: 3px;
+  border-color: #ffcc00;
+  border-style: solid;
+  border-radius: 0;
+}
+
 footer {
   background-color: #202020;
 }
