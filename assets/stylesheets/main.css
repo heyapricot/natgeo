@@ -36,10 +36,18 @@ p, a {
   font-size: 0.75rem;
 }
 
-.nav-item, .nav-item:hover {
+nav {
+  z-index: 10;
+}
+
+.nav-item {
   color: white;
   padding: 0;
-  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .navbar-dark .navbar-toggler {
@@ -56,7 +64,11 @@ p, a {
 }
 
 footer {
-  background-color: #252a30;
+  background-color: #202020;
+}
+
+footer p, .fab {
+  font-weight: bold;
 }
 
 .footer-item, .footer-item:hover {
