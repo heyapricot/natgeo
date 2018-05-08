@@ -17,3 +17,8 @@
     font-size: 0.9rem;
     color: gray;
 }
+
+.image {
+    width: 100%;
+    height: 75%;
+}
