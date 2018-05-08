@@ -75,6 +75,13 @@ nav {
   min-height: 350px;
 }
 
+hr {
+  width: 30px;
+  border-top: 3px;
+  border-color: #ffcc00;
+  border-top-style: solid;
+}
+
 .btn {
   color: white;
   border: 3px;
