@@ -1,7 +1,8 @@
 /*Article section*/
 .article_header {
     font-size: 1.4rem;
-    color: red;
+    font-weight: 900;
+    text-transform: uppercase
 }
 
 .rotate {
@@ -10,4 +11,9 @@
 
 .comment-line {
     border-right: 6px solid #ffc818 ;
+}
+
+.notes {
+    font-size: 0.9rem;
+    color: gray;
 }
