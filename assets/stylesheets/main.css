@@ -102,6 +102,12 @@ nav {
     height: 75%;
 }
 
+.article-one-left-column {
+    position: relative;
+    left: 10%;
+    z-index: 100;
+}
+
 .left-picture {
     position: relative;
     left: 15%;
@@ -112,6 +118,32 @@ nav {
     color: lightgray;
     font-size: 0.7rem;
 }
+
+.square {
+    width: 25%;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.image-selector div:nth-child(1){
+    background-image: url("../images/iguana.jpg");
+    background-size: cover;
+}
+
+.image-selector div:nth-child(2){
+    background-image: url("../images/owl.jpg");
+    background-size: cover;
+}
+
+.image-selector div:nth-child(3){
+    background-image: url("../images/fox.jpg");
+    background-size: cover;
+}
+
 /* End of article */
 
 /*App section*/
