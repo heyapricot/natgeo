@@ -1,3 +1,25 @@
+/* Globals */
+
+h6 {
+    color: #ffcc00;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+p, a {
+    font-size: 0.75rem;
+}
+
+nav {
+    z-index: 10;
+}
+
+/* End of Globals */
+
+/* Cover */
+
 #cover {
   background: url(../images/cover.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -7,7 +29,7 @@
   height: 100vh;
 }
 
-#icon {
+.icon {
   border: 3px;
   border-color: #ffcc00;
   border-style: solid;
@@ -24,21 +46,7 @@
   height: 100%;
 }
 
-h6 {
-  color: #ffcc00;
-}
 
-h5 {
-  font-size: 1.1rem;
-}
-
-p, a {
-  font-size: 0.75rem;
-}
-
-nav {
-  z-index: 10;
-}
 
 .nav-item {
   color: white;
@@ -92,6 +100,12 @@ nav {
 .image {
     width: 100%;
     height: 75%;
+}
+
+.left-picture {
+    position: relative;
+    left: 15%;
+    z-index: 100;
 }
 /* End of article */
 
