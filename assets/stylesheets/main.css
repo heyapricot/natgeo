@@ -107,6 +107,11 @@ nav {
     left: 15%;
     z-index: 100;
 }
+
+.text-squares {
+    color: lightgray;
+    font-size: 0.7rem;
+}
 /* End of article */
 
 /*App section*/
