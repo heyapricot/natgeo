@@ -152,7 +152,7 @@ nav {
   background: url(../images/app.jpg) no-repeat center;
   background-color: rgba(0,0,0,0.5);
   background-blend-mode: overlay;
-  background-size: auto;
+  background-size: cover;
   height: 75vh;
   min-height: 350px;
 }
