@@ -1,78 +1,64 @@
 /* Globals */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
-h6 {
+/* Navbar */
+
+nav button {
+    color: white;
+}
+
+/* Navbar */
+.navbar-brand {
+    width: 125px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.nav-link:hover {
     color: #ffcc00;
 }
 
-h5 {
-    font-size: 1.1rem;
+/* Cover */
+
+.cover {
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
 }
 
-p, a {
-    font-size: 0.75rem;
+.cover-bottom-link h6 {
+    color: #ffcc00;
 }
-
-nav {
-    z-index: 10;
-}
-
-/* End of Globals */
 
 /* Cover */
 
-#cover {
-  background: url(../images/cover.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
+.cover-heading div:first-of-type {
+    border-left: solid 9px #ffcc00;
 }
 
-.icon {
-  border: 3px;
-  border-color: #ffcc00;
-  border-style: solid;
-  width: 28px;
-  height: 36px;
-  line-height: normal;
+@media (min-width: 992px) {
+
+
 }
 
-#overlap {
-  position: absolute;
-  left: 10%;
-  bottom: 0;
-  right: 0;
-  height: 100%;
-}
+@media screen and (max-width: 992px){
 
+    .navbar-collapse {
+        background-color: rgba(0,0,0,0.75);
+    }
 
+    nav {
+        background-color: rgba(0,0,0,0.5);
+    }
 
-.nav-item {
-  color: white;
-  padding: 0;
-}
-
-.nav-item:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.navbar-dark .navbar-toggler {
-  color: white;
-  border: 0;
-}
-
-#border-left {
-  border-left: 3px;
-  border-color: #ffcc00;
-  border-left-style: solid;
-  padding-left: 2rem;
-  line-height: 0.75;
-}
-
-.row {
-  margin: 0;
 }
 
 
