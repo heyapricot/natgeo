@@ -4,6 +4,12 @@ body {
 }
 
 /* Navbar */
+
+nav button {
+    color: white;
+}
+
+/* Navbar */
 .navbar-brand {
     width: 125px;
 }
@@ -15,6 +21,10 @@ body {
     color: white;
 }
 
+.nav-link:hover {
+    color: #ffcc00;
+}
+
 /* Cover */
 
 .cover {
@@ -24,14 +34,20 @@ body {
     color: white;
 }
 
-.cover-heading {
-    font-weight: 900;
-}
 
-.cover-bottom-link h6 {
-    color: #ffcc00;
-}
+@media (min-width: 992px) {
 
-.cover-heading div:first-of-type {
-    border-left: solid 9px #ffcc00;
+    /* Cover */
+
+    .cover-heading {
+        font-weight: 900;
+    }
+
+    .cover-bottom-link h6 {
+        color: #ffcc00;
+    }
+
+    .cover-heading div:first-of-type {
+        border-left: solid 9px #ffcc00;
+    }
 }
