@@ -28,6 +28,10 @@ body {
     font-weight: 900;
 }
 
-.cover-bottom-links h6 {
+.cover-bottom-link h6 {
     color: #ffcc00;
+}
+
+.cover-heading div:first-of-type {
+    border-left: solid 9px #ffcc00;
 }
