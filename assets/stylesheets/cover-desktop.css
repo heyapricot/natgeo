@@ -34,20 +34,17 @@ nav button {
     color: white;
 }
 
+.cover-bottom-link h6 {
+    color: #ffcc00;
+}
+
+/* Cover */
+
+.cover-heading div:first-of-type {
+    border-left: solid 9px #ffcc00;
+}
 
 @media (min-width: 992px) {
 
-    /* Cover */
 
-    .cover-heading {
-        font-weight: 900;
-    }
-
-    .cover-bottom-link h6 {
-        color: #ffcc00;
-    }
-
-    .cover-heading div:first-of-type {
-        border-left: solid 9px #ffcc00;
-    }
 }
