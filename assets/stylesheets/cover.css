@@ -14,3 +14,14 @@ body {
     font-size: 0.8rem;
     color: white;
 }
+
+.cover {
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.cover-heading {
+    font-weight: 900;
+}
