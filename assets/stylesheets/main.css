@@ -5,7 +5,11 @@ body {
 
 /* Navbar */
 
-nav button {
+nav {
+    background-color: rgba(0,0,0,0.5);
+}
+
+nav * {
     color: white;
 }
 
@@ -18,7 +22,6 @@ nav button {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 0.8rem;
-    color: white;
 }
 
 .nav-link:hover {
@@ -51,12 +54,19 @@ nav button {
 
 @media screen and (max-width: 992px){
 
+    /* Navbar */
+
     .navbar-collapse {
         background-color: rgba(0,0,0,0.75);
     }
 
     nav {
         background-color: rgba(0,0,0,0.5);
+    }
+
+    .cover-links {
+        height: 60px;
+        overflow-y: scroll;
     }
 
 }
