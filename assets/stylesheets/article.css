@@ -37,5 +37,13 @@ body {
     width: 10%;
 }
 
+.left-bar {
+    border-left: solid 6px #ffcc00;
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
 
 
