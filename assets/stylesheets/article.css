@@ -5,9 +5,18 @@ body {
 
 /* Article */
 @media (min-width: 992px) {
-    .bottom-overlap {
+    .bottom-overlap, .left-overlap {
         position: relative;
+
+    }
+
+    .bottom-overlap {
         bottom: 200px;
+    }
+
+    .left-overlap {
+        left: 10%;
+        z-index: 10;
     }
 }
 
