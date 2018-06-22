@@ -13,6 +13,12 @@ nav * {
     color: white;
 }
 
+.button {
+    border: solid 6px #ffcc00;
+    color: white;
+    padding: 0.75rem;
+}
+
 /* Navbar */
 .navbar-brand {
     width: 125px;
@@ -33,6 +39,7 @@ nav * {
 .cover {
     background-image: url("../images/cover.jpg");
     background-size: cover;
+    background-position: center center;
     height: 100vh;
     color: white;
 }
@@ -124,4 +131,17 @@ nav * {
 
 .rotate {
     transform: rotate(45deg);
+}
+
+/* Download section */
+.download {
+    background-image: url("../images/app.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 75vh;
+    color: white;
+}
+
+.download .container-fluid .row {
+    background-color: rgba(0,0,0,0.5);
 }
