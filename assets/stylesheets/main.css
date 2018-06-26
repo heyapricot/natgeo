@@ -14,8 +14,8 @@ nav * {
 }
 
 section, footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .button {
@@ -89,18 +89,28 @@ section, footer {
 
 /*Article section*/
 @media (min-width: 992px) {
-    .bottom-overlap, .left-overlap {
+    .bottom-overlap, .left-overlap, .top-overlap {
         position: relative;
 
     }
 
     .bottom-overlap {
-        bottom: 200px;
+        bottom: 100px;
+    }
+
+    .top-overlap {
+        top: 100px;
     }
 
     .left-overlap {
         left: 10%;
         z-index: 10;
+    }
+}
+
+@media(max-width: 575.98px){
+    .article .container-fluid .row > div{
+        margin-bottom: 1rem;
     }
 }
 
