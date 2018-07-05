@@ -8,11 +8,6 @@ a:hover {
     text-decoration: none;
 }
 
-section, footer {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
 .button {
     border: solid 6px #ffcc00;
     color: white;
@@ -22,7 +17,7 @@ section, footer {
 /* Navbar */
 
 nav {
-    margin-top: 1.2rem;
+    margin-top: 1.6rem;
 }
 
 nav * {
@@ -65,9 +60,35 @@ nav * {
         font-size: 3.5rem;
     }
 
+    .cover .container-fluid .row:last-child {
+        margin-bottom: 3rem;
+    }
+
+    .cover-bottom-link {
+        padding-right: 2.4rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .cover-bottom-link:first-child {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .cover-bottom-link:last-child {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
 }
 
 @media screen and (max-width: 992px){
+
+    /* Globals */
+    section, footer {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 
     /* Navbar */
 
