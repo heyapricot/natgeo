@@ -3,14 +3,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Navbar */
-
-nav {
-    background-color: rgba(0,0,0,0.5);
-}
-
-nav * {
-    color: white;
+a:hover {
+    color: #ffcc00;
+    text-decoration: none;
 }
 
 section, footer {
@@ -25,18 +20,24 @@ section, footer {
 }
 
 /* Navbar */
+
+nav {
+    margin-top: 1.2rem;
+}
+
+nav * {
+    color: white;
+}
+
 .navbar-brand {
     width: 125px;
+    margin-left: 0.6rem;
 }
 
 .nav-link {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 0.8rem;
-}
-
-.nav-link:hover {
-    color: #ffcc00;
 }
 
 /* Cover */
